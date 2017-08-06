@@ -1,0 +1,98 @@
+body {background-color: #fff;}
+
+.ui-navtop section.container{border-bottom:0px solid #ddd}
+.ui-navtop .content{margin-right:360px;margin-left:188px;min-height:500px;padding: 0px;}
+.ui-navtop .sidebar{margin-left:-330px;width:330px;}
+
+
+.speedbar-wrap{position: relative;float: left;margin-left: -100%;width: 158px;overflow: hidden;}
+.speedbar{position: fixed;width: 158px;}
+.speedbar-menu{ border: 1px solid #eaeaea;font-weight: bold;margin: 0;list-style: none;padding: 0;border-radius: 4px;padding: 7px 0;}
+.speedbar-menu a{display: block;padding: 7px 20px; }
+.speedbar-menu li:first-child a{border-radius: 4px 4px 0 0}
+.speedbar-menu li:last-child a{border-radius: 0 0 4px 4px;border-bottom: none;}
+
+.speedbar-weixin{border-radius: 4px;border: 1px solid #eaeaea;margin-top: 10px;}
+.speedbar-weixin h5{padding: 12px 0 0 20px;font-size: 12px;margin: 0;line-height: 16px;}
+.speedbar-weixin img{max-width: 100%;}
+
+.excerpt{position:relative;padding: 20px 0 20px 220px;overflow: hidden;border-bottom: 1px solid #eaeaea;clear: both;}
+.excerpt h2{font-size: 20px;line-height: 26px;margin: 0 0 10px;font-weight: bold;}
+.excerpt p{margin-bottom: 0;}
+.excerpt .note{color: #999;margin-bottom: 10px;font-size: 14px;}
+.excerpt .thumbnail{float: left;margin-left: -220px;width: 200px;}
+.excerpt .thumb{max-width: 200px;width: 100%;height:163px;border-radius: 2px;}
+.excerpt footer{font-size: 12px;color: #bbb;}
+.excerpt .cat{color: #FF5E52;font-size: 12px;font-weight: bold;margin-right: 10px;}
+.excerpt time{margin: 0 10px 0 0;color: #999;}
+.excerpt .post-views{margin-left: 10px;}
+
+time{margin-right: 15px;display: inline-block;}
+time.new{color: #35C504;font-weight: bold;}
+time.prev{color: #0AB5D3;font-weight: bold;}
+
+.post-views{margin-right: 15px;color: #999;font-size: 12px;}
+.post-comments{margin-right: 15px;}
+.post-tags{margin-right: 15px;}
+.post-like{float: right;border-radius: 2px;padding: 3px 8px;background: #FF5E52;line-height: 18px;color: #fff;font-size: 12px;}
+.post-like:hover{background-color: #FF5144;color: #fff;}
+.post-like i{margin-right: 5px;font-size: 13px;top: 2px;width: 13px;}
+.post-like{text-decoration: none;color: #FFF;}
+.post-like.actived{color: #FFFFA0;}
+
+
+
+.widget{background-color:#FFF;border-radius:4px;border:1px solid #eaeaea;padding:15px;}
+.widget_ui_readers ul{padding:10px 0 0 0;}
+.widget_ui_readers li{margin:0px 0px 6px 6px}
+
+.page-template-pagehasmenu section.container .content{background-color:#fff;border-radius:4px;margin-right:0;margin-left:0;border:1px solid #eaeaea;padding:30px;}
+@media (max-width:1280px){
+	section.container{padding: 0 20px;}
+	.searchform{display: none;}
+}
+@media (max-width:1200px){
+    .search-form{display: none;}
+	.ui-navtop .content{margin-left:0px;}
+    .pagebar{display: none; }
+    .excerpts-sidebar{display: none;}
+    .excerpts-list{margin-left: -400px;}
+    .ranking li{width: 49%;}
+    .speedbar-wrap{display: none;}
+    .content{margin-left: 0;}
+}
+@media (max-width:1024px){
+    .slinks{display: none;}
+	.ui-navtop .content{margin-right:0px;}
+    .content{margin-right: 0}
+    .sidebar-bg{display: none;}
+    body{margin: 98px 0 0;}
+    section.container{background-color: #fff;padding: 10px 20px;}
+    .page-template-pagesranking-php section.container{background-color: #F1F1F1;}
+    .single .header{margin-bottom: 0;}
+    .content{padding: 0;border: none;}
+    .single .content{margin-right: 0;padding: 0;border-bottom: none;}
+    .excerpts-list{display: none;}
+    .pagination-loading img{width: 60px;}
+    .focus-section{display: none;}
+    .focusbanner img{height: auto;}    
+    .excerpt .cat{display: none;}
+    .excerpt h2{font-size: 24px;}
+    .excerpts h3{display: none;}
+}
+@media (max-width:560px){
+    section.container{padding: 0 10px;}
+    .single section.container{padding: 10px;}
+    .most-comment-posts ,.focusmo{display: none;}
+	.action-share .bds_sqq,.action-share .bds_renren,.action-share .bds_douban,.action-share .bbds_count{display: none;}
+    .header{margin-bottom: 10px;}
+    .content-wrap{margin-bottom: 5px;}
+    .excerpt{padding: 10px 0 10px 120px;}
+    .excerpt .thumbnail{margin-left: -120px;width: 110px;}
+	.excerpt .thumb{height:82px;}
+    .excerpt .note{display: none;}
+    .excerpt h2{line-height: 20px;font-size: 17px;}
+    .excerpt small{display: none;}
+	.excerpt footer{margin-top:20px;}
+    .focusbanner h2{padding: 0 10px;font-size: 11px;height: 18px;line-height: 18px;}
+}
